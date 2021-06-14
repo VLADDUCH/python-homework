@@ -1,4 +1,6 @@
-#Python home 
+#Python home
+import pandas as pd
+import statistics
 #PyBank pseudocoding
 #Your task is to create a Python script that analyzes the records to calculate each of the following:
                 #Variables
@@ -10,26 +12,29 @@ GIP = "Greatest Increase in Profits"
 GDP = "Greatest Decrease in Profits"
 
 
+#IC = pd.read_csv('.csv')
+#print(df.to_string()) 
+
 
 #The total number of months included in the dataset.
-#use len for months the company records. ie
+#use len for months the company records. iehhhhhhhhhhhhhhhhhhhhhhhhhhh
 #len (monthly_records - nomonthly_records)
 
 #The net total amount of Profit/Losses over the entire period.
 #ie profit= inser data set 
-#total = ()
-#x= sum (total)
+#TM = (IC)
+#x= sum (TM)
 
 #The average of the changes in Profit/Losses over the entire period.
 #import statictics 
-#print(statistics.mean([]))
+#print(statistics.mean(IC[]))
 
 #The greatest increase in profits (date and amount) over the entire period.
-#GIP= max ()
+#GIP= max (IC)
 #print GIP
 
 #The greatest decrease in losses (date and amount) over the entire period.
-#GDP = min ()
+#GDP = min (IC)
 #print GDP
 
 #Your resulting analysis should look similar to the following:
@@ -41,3 +46,4 @@ print ("Average Change: " + AC)
 print ("Greatest Increase in Profits: " + GIP)
 print ("Greatest Decrease in Profits: " + GDP)
 #Your final script should print the analysis to the terminal and export a text file with the results.
+#References https://www.w3schools.com/python/python_reference.asp
